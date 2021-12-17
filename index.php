@@ -46,9 +46,9 @@ echo "berhasil";
 
       <?php while ($row = mysqli_fetch_assoc($result)) : ?>
         <tr>
-          <td><img src="img/<?= $row["Gambar"];  ?>" width="50"></td>
-          <td><?= $row["Nama"];  ?></td>
-          <td><?= $row["Npm"];  ?></td>
+          <td><img src="img/<?= $row["gambar"];  ?>" width="50"></td>
+          <td><?= $row["nama"];  ?></td>
+          <td><?= $row["npm"];  ?></td>
         </tr>
       <?php endwhile; ?>
 
