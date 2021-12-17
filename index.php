@@ -9,11 +9,11 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 
 $result = mysqli_query($conn, "SELECT * FROM mahasiswa");
 // Check connection
-// if (!$conn) {
-//   die("Connection failed: " . mysqli_connect_error());
-// }
+if (!$conn) {
+  die("Connection failed: " . mysqli_connect_error());
+}
 
-// echo "berhasil";
+echo "berhasil";
 
 ?>
 
