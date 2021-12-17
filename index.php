@@ -1,7 +1,7 @@
 <?php
 $servername = '103.31.39.50';
-$username = 'user_project5db';
-$password = 'user_project5db';
+$username = 'project5db';
+$password = 'project5db';
 $dbname = 'project5db';
 
 // Create connection
